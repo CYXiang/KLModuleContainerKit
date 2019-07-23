@@ -15,6 +15,8 @@
 		316D46D322D2664C00D15DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46D222D2664C00D15DC9 /* main.m */; };
 		316D46DD22D2664C00D15DC9 /* KLModuleContainerKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46DC22D2664C00D15DC9 /* KLModuleContainerKitTests.m */; };
 		316D46E822D2664C00D15DC9 /* KLModuleContainerKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46E722D2664C00D15DC9 /* KLModuleContainerKitUITests.m */; };
+		F485F9F322E735C3001891A7 /* KLBaseContainerViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */; };
+		F485F9F422E735C3001891A7 /* KLBaseContainerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,12 @@
 		316D46E322D2664C00D15DC9 /* KLModuleContainerKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLModuleContainerKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316D46E722D2664C00D15DC9 /* KLModuleContainerKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLModuleContainerKitUITests.m; sourceTree = "<group>"; };
 		316D46E922D2664C00D15DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBaseContainerViewSectionItem.m; sourceTree = "<group>"; };
+		F485F9EE22E735C3001891A7 /* KLBaseContainerCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerCellProtocol.h; sourceTree = "<group>"; };
+		F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBaseContainerManager.m; sourceTree = "<group>"; };
+		F485F9F022E735C3001891A7 /* KLBaseContainerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerManager.h; sourceTree = "<group>"; };
+		F485F9F122E735C3001891A7 /* KLBaseContainerSectionIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerSectionIdentifier.h; sourceTree = "<group>"; };
+		F485F9F222E735C3001891A7 /* KLBaseContainerViewSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerViewSectionItem.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +109,7 @@
 		316D46C222D2664B00D15DC9 /* KLModuleContainerKit */ = {
 			isa = PBXGroup;
 			children = (
+				F485F9EC22E735C3001891A7 /* BaseContainer */,
 				316D46C322D2664B00D15DC9 /* AppDelegate.h */,
 				316D46C422D2664B00D15DC9 /* AppDelegate.m */,
 				316D46C622D2664B00D15DC9 /* ViewController.h */,
@@ -130,6 +139,19 @@
 				316D46E922D2664C00D15DC9 /* Info.plist */,
 			);
 			path = KLModuleContainerKitUITests;
+			sourceTree = "<group>";
+		};
+		F485F9EC22E735C3001891A7 /* BaseContainer */ = {
+			isa = PBXGroup;
+			children = (
+				F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */,
+				F485F9EE22E735C3001891A7 /* KLBaseContainerCellProtocol.h */,
+				F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */,
+				F485F9F022E735C3001891A7 /* KLBaseContainerManager.h */,
+				F485F9F122E735C3001891A7 /* KLBaseContainerSectionIdentifier.h */,
+				F485F9F222E735C3001891A7 /* KLBaseContainerViewSectionItem.h */,
+			);
+			path = BaseContainer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -264,6 +286,8 @@
 			files = (
 				316D46C822D2664B00D15DC9 /* ViewController.m in Sources */,
 				316D46D322D2664C00D15DC9 /* main.m in Sources */,
+				F485F9F322E735C3001891A7 /* KLBaseContainerViewSectionItem.m in Sources */,
+				F485F9F422E735C3001891A7 /* KLBaseContainerManager.m in Sources */,
 				316D46C522D2664B00D15DC9 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
