@@ -14,14 +14,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @required
 
-// 注册 Cell 到 View 中
-- (void)registerCellWithCollectionView:(UICollectionView *)collectionView;
-
 // 更新数据
-- (void)setModel:(id)model;
-
-// 获取Cell Insets
-- (UIEdgeInsets)getCellEdgeInsets;
+- (void)setContainerCellModel:(id)containerCellModel;
 
 @end
 

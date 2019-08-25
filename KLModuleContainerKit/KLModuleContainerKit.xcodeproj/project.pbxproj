@@ -15,8 +15,12 @@
 		316D46D322D2664C00D15DC9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46D222D2664C00D15DC9 /* main.m */; };
 		316D46DD22D2664C00D15DC9 /* KLModuleContainerKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46DC22D2664C00D15DC9 /* KLModuleContainerKitTests.m */; };
 		316D46E822D2664C00D15DC9 /* KLModuleContainerKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 316D46E722D2664C00D15DC9 /* KLModuleContainerKitUITests.m */; };
-		F485F9F322E735C3001891A7 /* KLBaseContainerViewSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */; };
-		F485F9F422E735C3001891A7 /* KLBaseContainerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */; };
+		F454BE67231287E8002708A3 /* KLTableViewContainerSectionItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE55231287E8002708A3 /* KLTableViewContainerSectionItem.m */; };
+		F454BE68231287E8002708A3 /* KLPaddingTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE59231287E8002708A3 /* KLPaddingTableViewCell.m */; };
+		F454BE69231287E8002708A3 /* KLTableViewContainerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE5B231287E8002708A3 /* KLTableViewContainerManager.m */; };
+		F454BE6A231287E8002708A3 /* KLTableViewContainerCellItem.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE5C231287E8002708A3 /* KLTableViewContainerCellItem.m */; };
+		F454BE6B231287E8002708A3 /* KLTableContainerTestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE60231287E8002708A3 /* KLTableContainerTestVC.m */; };
+		F454BE6C231287E8002708A3 /* KLTest1SectionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = F454BE61231287E8002708A3 /* KLTest1SectionConfig.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +57,21 @@
 		316D46E322D2664C00D15DC9 /* KLModuleContainerKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KLModuleContainerKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		316D46E722D2664C00D15DC9 /* KLModuleContainerKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KLModuleContainerKitUITests.m; sourceTree = "<group>"; };
 		316D46E922D2664C00D15DC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBaseContainerViewSectionItem.m; sourceTree = "<group>"; };
-		F485F9EE22E735C3001891A7 /* KLBaseContainerCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerCellProtocol.h; sourceTree = "<group>"; };
-		F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLBaseContainerManager.m; sourceTree = "<group>"; };
-		F485F9F022E735C3001891A7 /* KLBaseContainerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerManager.h; sourceTree = "<group>"; };
-		F485F9F122E735C3001891A7 /* KLBaseContainerSectionIdentifier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerSectionIdentifier.h; sourceTree = "<group>"; };
-		F485F9F222E735C3001891A7 /* KLBaseContainerViewSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerViewSectionItem.h; sourceTree = "<group>"; };
+		F454BE54231287E8002708A3 /* KLTableViewContainerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTableViewContainerManager.h; sourceTree = "<group>"; };
+		F454BE55231287E8002708A3 /* KLTableViewContainerSectionItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTableViewContainerSectionItem.m; sourceTree = "<group>"; };
+		F454BE56231287E8002708A3 /* KLTableViewContainerCellItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTableViewContainerCellItem.h; sourceTree = "<group>"; };
+		F454BE58231287E8002708A3 /* KLPaddingTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLPaddingTableViewCell.h; sourceTree = "<group>"; };
+		F454BE59231287E8002708A3 /* KLPaddingTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLPaddingTableViewCell.m; sourceTree = "<group>"; };
+		F454BE5A231287E8002708A3 /* KLTableViewContainerSectionItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTableViewContainerSectionItem.h; sourceTree = "<group>"; };
+		F454BE5B231287E8002708A3 /* KLTableViewContainerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTableViewContainerManager.m; sourceTree = "<group>"; };
+		F454BE5C231287E8002708A3 /* KLTableViewContainerCellItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTableViewContainerCellItem.m; sourceTree = "<group>"; };
+		F454BE5E231287E8002708A3 /* KLTableContainerTestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTableContainerTestVC.h; sourceTree = "<group>"; };
+		F454BE5F231287E8002708A3 /* KLTest1SectionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLTest1SectionConfig.h; sourceTree = "<group>"; };
+		F454BE60231287E8002708A3 /* KLTableContainerTestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTableContainerTestVC.m; sourceTree = "<group>"; };
+		F454BE61231287E8002708A3 /* KLTest1SectionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLTest1SectionConfig.m; sourceTree = "<group>"; };
+		F454BE63231287E8002708A3 /* KLBaseContainerCollectionCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerCollectionCellProtocol.h; sourceTree = "<group>"; };
+		F454BE64231287E8002708A3 /* KLBaseContainerCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerCellProtocol.h; sourceTree = "<group>"; };
+		F454BE65231287E8002708A3 /* KLBaseContainerTableViewCellProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLBaseContainerTableViewCellProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +122,7 @@
 		316D46C222D2664B00D15DC9 /* KLModuleContainerKit */ = {
 			isa = PBXGroup;
 			children = (
-				F485F9EC22E735C3001891A7 /* BaseContainer */,
+				F454BE52231287E8002708A3 /* KLBaseContaine */,
 				316D46C322D2664B00D15DC9 /* AppDelegate.h */,
 				316D46C422D2664B00D15DC9 /* AppDelegate.m */,
 				316D46C622D2664B00D15DC9 /* ViewController.h */,
@@ -141,17 +154,66 @@
 			path = KLModuleContainerKitUITests;
 			sourceTree = "<group>";
 		};
-		F485F9EC22E735C3001891A7 /* BaseContainer */ = {
+		F454BE52231287E8002708A3 /* KLBaseContaine */ = {
 			isa = PBXGroup;
 			children = (
-				F485F9ED22E735C3001891A7 /* KLBaseContainerViewSectionItem.m */,
-				F485F9EE22E735C3001891A7 /* KLBaseContainerCellProtocol.h */,
-				F485F9EF22E735C3001891A7 /* KLBaseContainerManager.m */,
-				F485F9F022E735C3001891A7 /* KLBaseContainerManager.h */,
-				F485F9F122E735C3001891A7 /* KLBaseContainerSectionIdentifier.h */,
-				F485F9F222E735C3001891A7 /* KLBaseContainerViewSectionItem.h */,
+				F454BE53231287E8002708A3 /* KLTableViewContaine */,
+				F454BE5D231287E8002708A3 /* Example */,
+				F454BE62231287E8002708A3 /* Protocol */,
+				F454BE66231287E8002708A3 /* KLCollectionViewContaine */,
 			);
-			path = BaseContainer;
+			path = KLBaseContaine;
+			sourceTree = "<group>";
+		};
+		F454BE53231287E8002708A3 /* KLTableViewContaine */ = {
+			isa = PBXGroup;
+			children = (
+				F454BE57231287E8002708A3 /* BaseCell */,
+				F454BE55231287E8002708A3 /* KLTableViewContainerSectionItem.m */,
+				F454BE56231287E8002708A3 /* KLTableViewContainerCellItem.h */,
+				F454BE5C231287E8002708A3 /* KLTableViewContainerCellItem.m */,
+				F454BE5A231287E8002708A3 /* KLTableViewContainerSectionItem.h */,
+				F454BE54231287E8002708A3 /* KLTableViewContainerManager.h */,
+				F454BE5B231287E8002708A3 /* KLTableViewContainerManager.m */,
+			);
+			path = KLTableViewContaine;
+			sourceTree = "<group>";
+		};
+		F454BE57231287E8002708A3 /* BaseCell */ = {
+			isa = PBXGroup;
+			children = (
+				F454BE58231287E8002708A3 /* KLPaddingTableViewCell.h */,
+				F454BE59231287E8002708A3 /* KLPaddingTableViewCell.m */,
+			);
+			path = BaseCell;
+			sourceTree = "<group>";
+		};
+		F454BE5D231287E8002708A3 /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				F454BE5E231287E8002708A3 /* KLTableContainerTestVC.h */,
+				F454BE60231287E8002708A3 /* KLTableContainerTestVC.m */,
+				F454BE5F231287E8002708A3 /* KLTest1SectionConfig.h */,
+				F454BE61231287E8002708A3 /* KLTest1SectionConfig.m */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		F454BE62231287E8002708A3 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				F454BE63231287E8002708A3 /* KLBaseContainerCollectionCellProtocol.h */,
+				F454BE64231287E8002708A3 /* KLBaseContainerCellProtocol.h */,
+				F454BE65231287E8002708A3 /* KLBaseContainerTableViewCellProtocol.h */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		F454BE66231287E8002708A3 /* KLCollectionViewContaine */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KLCollectionViewContaine;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,11 +346,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F454BE6C231287E8002708A3 /* KLTest1SectionConfig.m in Sources */,
 				316D46C822D2664B00D15DC9 /* ViewController.m in Sources */,
+				F454BE68231287E8002708A3 /* KLPaddingTableViewCell.m in Sources */,
+				F454BE6A231287E8002708A3 /* KLTableViewContainerCellItem.m in Sources */,
 				316D46D322D2664C00D15DC9 /* main.m in Sources */,
-				F485F9F322E735C3001891A7 /* KLBaseContainerViewSectionItem.m in Sources */,
-				F485F9F422E735C3001891A7 /* KLBaseContainerManager.m in Sources */,
 				316D46C522D2664B00D15DC9 /* AppDelegate.m in Sources */,
+				F454BE69231287E8002708A3 /* KLTableViewContainerManager.m in Sources */,
+				F454BE6B231287E8002708A3 /* KLTableContainerTestVC.m in Sources */,
+				F454BE67231287E8002708A3 /* KLTableViewContainerSectionItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
